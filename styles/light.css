@@ -6,14 +6,14 @@
 
 :root.theme-light {
   /* цвета */
-  --title-color: #FFC2E6;
-  --accent-color: #FF8DCB;
+  --title-color: #ffc2e6;
+  --accent-color: #ff8dcb;
   --text-color: #353430;
-  --background-color: #FFF1F7;
+  --background-color: #fff1f7;
   --title_text-color: #353430;
-  --title_text-color_inverse:var(--title_text-color);
+  --title_text-color_inverse: var(--title_text-color);
   /* Шрифт */
-  --font: 'IBM Plex Mono';
+  --font: "IBM Plex Mono";
   /* Размер текста */
   --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --text-size: 18px;
@@ -25,17 +25,16 @@
 }
 
 @media (prefers-color-scheme: light) {
-
   :root {
-        /* цвета */
-    --title-color: #FFC2E6;
-    --accent-color: #FF8DCB;
+    /* цвета */
+    --title-color: #ffc2e6;
+    --accent-color: #ff8dcb;
     --text-color: #353430;
-    --background-color: #FFF1F7;
+    --background-color: #fff1f7;
     --title_text-color: #353430;
-    --title_text-color_inverse:var(--title_text-color);
+    --title_text-color_inverse: var(--title_text-color);
     /* Шрифт */
-    --font: 'IBM Plex Mono';
+    --font: "IBM Plex Mono";
     /* Размер текста */
     --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --text-size: 18px;
@@ -43,7 +42,7 @@
     --text_font-weight: 400;
     /* другое */
     --text-shadow: 4px 4px 0 var(--accent-color);
-    --background-image: url(../images/cover-image-light.png);    
+    --background-image: url(../images/cover-image-light.png);
   }
 }
 
