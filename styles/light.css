@@ -6,7 +6,7 @@
 
 :root.theme-light {
   /* цвета */
-  --title-color: #FFC2E6;;
+  --title-color: #FFC2E6;
   --accent-color: #FF8DCB;
   --text-color: #353430;
   --background-color: #FFF1F7;
@@ -28,7 +28,7 @@
 
   :root {
         /* цвета */
-    --title-color: #FFC2E6;;
+    --title-color: #FFC2E6;
     --accent-color: #FF8DCB;
     --text-color: #353430;
     --background-color: #FFF1F7;
@@ -44,7 +44,7 @@
     /* другое */
     --text-shadow: 4px 4px 0 var(--accent-color);
     --background-image: url(../images/cover-image-light.png);    
-    }
+  }
 
 }
 
