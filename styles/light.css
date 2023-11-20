@@ -45,7 +45,6 @@
     --text-shadow: 4px 4px 0 var(--accent-color);
     --background-image: url(../images/cover-image-light.png);    
   }
-
 }
 
 .page.theme_light {

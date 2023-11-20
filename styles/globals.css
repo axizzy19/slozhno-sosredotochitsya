@@ -10,6 +10,7 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0;
+  padding: 0;
   font-family: var(--font), sans-serif;
   font-size: var(--text-size);
 }
