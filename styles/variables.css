@@ -5,14 +5,14 @@
 
 :root {
   /* цвета */
-  --title-color: #DB00FF;
-  --accent-color: #FF0070;
-  --text-color: #F1B2CE;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --text-color: #f1b2ce;
   --background-color: #000028;
   --title_text-color: #000028;
-  --title_text-color_inverse: #FF0070;
+  --title_text-color_inverse: #ff0070;
   /* Шрифт */
-  --font: 'IBM Plex Mono';
+  --font: "IBM Plex Mono";
   /* Размер текста */
   --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --text-size: 18px;
