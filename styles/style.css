@@ -8,10 +8,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding-inline: 10px;
 }
 
 .header {
+  padding-inline: 10px;
   padding-block: 10px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -138,6 +138,7 @@
 }
 
 .content {
+  padding-inline: 10px;
   padding-block: 40px;
   display: grid;
   row-gap: 50px;
@@ -183,7 +184,7 @@
 
 .footer {
   block-size: 100vh;
-  padding: 10px 0;
+  padding: 10px 10px;
   display: grid;
 }
 
@@ -192,12 +193,9 @@
 }
 
 @media (width >= 768px) {
-  .page {
-    padding-inline: 20px;
-  }
-
   .header {
     padding-block: 20px;
+    padding-inline: 20px;
   }
 
   .title {
@@ -211,6 +209,7 @@
 
   .content {
     padding-block: 60px;
+    padding-inline: 20px;
     row-gap: 80px;
   }
 
@@ -274,7 +273,7 @@
   }
 
   .footer {
-    padding: 20px 0;
+    padding: 20px 20px;
   }
 
   .footer .title {
